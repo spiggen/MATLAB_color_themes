@@ -34,7 +34,7 @@ my_plot = plot(0:0.01:10, (1:10)'*sin(0:0.01:10))
 borealis()
 ```
 
-![image_2.png](Documentation_media/image_2.png)
+![image_2.png](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/borealis_sample.png)
 
 sangbok:
 
@@ -45,7 +45,7 @@ sangbok()
 
   
 
-![image_3.png](Documentation_media/image_3.png)
+![image_3.png]([Documentation_media/image_3.png](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/sangbok_sample.png))
 
   
   
@@ -58,7 +58,7 @@ fireflies("ColorSamples", 10)
 
   
 
-![image_4.png](Documentation_media/image_4.png)
+![image_4.png]([Documentation_media/image_4.png](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/colorsamples_sample.png))
 
   
 # Different plot-types:
@@ -71,7 +71,7 @@ fireflies();
 
   
 
-![image_5.png](Documentation_media/image_5.png)
+![image_5.png](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/3dplot_sample.png)
 
 # Used together with UI-figures and MATLAB-appdesigner:
 
@@ -82,7 +82,7 @@ fireflies();
 
 ```
 
-![image_6.png](Documentation_media/image_6.png)
+![image_6.png]([Documentation_media/image_6.png](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/Sk%C3%A4rmbild%202023-10-06%20174034.png)
 
   
   
@@ -101,7 +101,7 @@ fireflies("Figure", myplot1)
   
   
 
-![image_7.png](Documentation_media/image_7.png)
+![image_7.png](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/Sk%C3%A4rmbild%202023-10-06%20174212.png)
 
   
   
