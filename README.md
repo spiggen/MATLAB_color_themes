@@ -82,7 +82,7 @@ fireflies();
 
 ```
 
-![image_6.png]([Documentation_media/image_6.png](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/Sk%C3%A4rmbild%202023-10-06%20174034.png)
+![image_6.png](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/Sk%C3%A4rmbild%202023-10-06%20174034.png)
 
   
   
