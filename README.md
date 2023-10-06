@@ -45,7 +45,7 @@ sangbok()
 
   
 
-![image_3.png]([Documentation_media/image_3.png](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/sangbok_sample.png))
+![image_3.png](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/sangbok_sample.png)
 
   
   
@@ -58,7 +58,7 @@ fireflies("ColorSamples", 10)
 
   
 
-![image_4.png]([Documentation_media/image_4.png](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/colorsamples_sample.png))
+![image_4.png](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/colorsamples_sample.png)
 
   
 # Different plot-types:
