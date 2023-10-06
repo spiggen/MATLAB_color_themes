@@ -22,6 +22,7 @@ fireflies:
 
 ```matlab:Code
 my_plot = plot(0:0.01:10, (1:10)'*sin(0:0.01:10))
+fireflies()
 ```
 
 
