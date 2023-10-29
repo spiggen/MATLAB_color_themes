@@ -24,7 +24,8 @@ if exist("graphics", "var") == false
     number_of_drawings = number_of_drawings + 1;
     end
     end
-
+    if number_of_drawings == 0; number_of_drawings = 5; 
+    end
     if exist("number_of_hues", "var") == false; number_of_hues = number_of_drawings;
     end
 end

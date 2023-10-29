@@ -5,8 +5,8 @@ colortheme_process_inputs_subroutine
 
 color1 = [255 255 100]/255;
 color2 = [255 0   0  ]/255;
-color3 = [70  0   220]/255;
-color4 = [0   0   0  ]/255;
+color3 = [150 0   150]/255;
+color4 = [0   0   100]/255;
 
 
 
