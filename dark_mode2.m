@@ -1,10 +1,10 @@
-function dark_mode(varargin)
+function dark_mode2(varargin)
 
 colortheme_process_inputs_subroutine
 
 
 color1 = [255 0 0]/255;
-color2 = [255 255   255]/255;
+color2 = [0 255   255]/255;
 
 
 
