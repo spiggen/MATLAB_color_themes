@@ -20,6 +20,13 @@ if isprop(fig, "NextPlot") && isequal(class(fig), 'matlab.graphics.axis.Axes')
    set(fig,'NextPlot',  "replacechildren");                          end
 if isprop(fig, "Color") && isequal(class(fig), 'matlab.graphics.primitive.Text')   
                                     fig.Color            = AXES_COLOR;         end
+if (isequal(class(fig),  'matlab.ui.control.UIAxes') | isequal(class(fig),  'matlab.graphics.axis.Axes')) && ...
+    exist("BACKGROUND_IMAGE", "var")
+hold(fig, "on")
+h = image(fig, xlim,-ylim,BACKGROUND_IMAGE); 
+uistack(h,'bottom')
+hold(fig, "off")
+end
 %if isprop(fig, "NextPlot") && isequal(class(fig), matlab.ui.Figure')   
 %                                set(fig,'NextPlot',  "new");disp(fig);end
 end
