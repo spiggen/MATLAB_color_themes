@@ -10,8 +10,7 @@ color3 = [100 255 255]/255;
 color4 = [0   255 100]/255;
 
 
-BACKGROUND_COLOR_1 = [0  0   20]/255;
-BACKGROUND_COLOR_2 = [0  0   20]/255;
+BACKGROUND_COLOR   = [0  0   20]/255;
 AXES_COLOR         = [0  150 150]/255;
 
 
