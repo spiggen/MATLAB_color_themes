@@ -23,6 +23,7 @@ if isprop(fig, "Color") && isequal(class(fig), 'matlab.graphics.primitive.Text')
 if (isequal(class(fig),  'matlab.ui.control.UIAxes') | isequal(class(fig),  'matlab.graphics.axis.Axes')) && ...
     exist("BACKGROUND_IMAGE", "var")
 hold(fig, "on")
+
 h = image(fig, xlim,-ylim,BACKGROUND_IMAGE); 
 uistack(h,'bottom')
 hold(fig, "off")
