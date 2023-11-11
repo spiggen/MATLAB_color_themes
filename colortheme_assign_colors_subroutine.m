@@ -1,7 +1,7 @@
 for index = 1:numel(graphics)
 fig = graphics(index);
-if isprop(fig, "defaultaxescolor"); fig.defaultaxescolor = BACKGROUND_COLOR_1; end
-if isprop(fig, "BackgroundColor");  fig.BackgroundColor  = BACKGROUND_COLOR_1; end
+%if isprop(fig, "defaultaxescolor"); fig.defaultaxescolor = BACKGROUND_COLOR_1; end
+%if isprop(fig, "BackgroundColor");  fig.BackgroundColor  = BACKGROUND_COLOR_1; end
 %if isprop(fig, "ForegroundColor");  fig.ForegroundColor  = axis_color;         end
 %if isprop(fig, "EdgeColor");        fig.EdgeColor        = AXES_COLOR;         end
 if isprop(fig, "TextColor");        fig.TextColor        = AXES_COLOR;         end
