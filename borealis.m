@@ -1,4 +1,4 @@
-function borealis(varargin)
+function NEW_COLORMAP = borealis(varargin)
 
 
 colortheme_process_inputs_subroutine

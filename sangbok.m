@@ -1,4 +1,4 @@
-function sangbok(varargin)
+function NEW_COLORMAP = sangbok(varargin)
 
 colortheme_process_inputs_subroutine
 
@@ -7,8 +7,7 @@ color1 = [255 150 0]/255;
 color2 = [100 0   0]/255;
 
 
-BACKGROUND_COLOR_1 = [5 5 20]/255;
-BACKGROUND_COLOR_2 = [5 5 20]/255;
+BACKGROUND_COLOR = [5 5 25]/255;
 AXES_COLOR         = [255 150 0]/255;
 
 

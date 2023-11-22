@@ -1,12 +1,11 @@
 for index = 1:numel(graphics)
 fig = graphics(index);
-%if isprop(fig, "defaultaxescolor"); fig.defaultaxescolor = BACKGROUND_COLOR; end
 if isprop(fig, "BackgroundColor");  fig.BackgroundColor  = BACKGROUND_COLOR; end
-%if isprop(fig, "ForegroundColor");  fig.ForegroundColor  = axis_color;         end
-%if isprop(fig, "EdgeColor");        fig.EdgeColor        = AXES_COLOR;         end
+if isprop(fig, "BackgroundColor");  fig.BackgroundColor  = BACKGROUND_COLOR; end
 if isprop(fig, "TextColor");        fig.TextColor        = AXES_COLOR;         end
+if isprop(fig, "GridColor");        fig.GridColor        = AXES_COLOR;
+                                    fig.GridAlpha        = 0.7;                end
 if isprop(fig, "FontColor");        fig.FontColor        = AXES_COLOR;         end
-%if isprop(fig, "HighlightColor");   fig.HighlightColor   = axis_color;         end
 if isprop(fig, "BorderColor");      fig.BorderColor      = AXES_COLOR;         end
 if isprop(fig, "Color");            fig.Color            = BACKGROUND_COLOR; end
 if isprop(fig, "XColor");           fig.XColor           = AXES_COLOR;         end
@@ -28,6 +27,10 @@ h = image(fig, xlim,-ylim,BACKGROUND_IMAGE);
 uistack(h,'bottom')
 hold(fig, "off")
 end
-%if isprop(fig, "NextPlot") && isequal(class(fig), matlab.ui.Figure')   
-%                                set(fig,'NextPlot',  "new");disp(fig);end
+
+if exist("GRID", "var")
+if GRID && isprop(fig, "XGrid"); fig.XGrid = "on"; fig.YGrid = "on";
+end
+end
+
 end

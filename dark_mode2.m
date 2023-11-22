@@ -1,4 +1,4 @@
-function dark_mode2(varargin)
+function NEW_COLORMAP = dark_mode2(varargin)
 
 colortheme_process_inputs_subroutine
 
