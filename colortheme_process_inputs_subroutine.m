@@ -27,6 +27,6 @@ if exist("graphics", "var") == false
     end
     
 end
-if number_of_drawings == 0; number_of_drawings = 5;end
+if number_of_drawings < 5; number_of_drawings = 5;end
 
 number_of_hues = number_of_drawings;
