@@ -156,4 +156,4 @@ end
 ![](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/mandelbrot_fireflies8.png)
 ![](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/mandelbrot_fireflies7.png)
 ![](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/mandelbrot_fireflies4.png)
-![](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/mandelbrot_fireflies1.png)
+![](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/mandelbrot_fireflies.png)
