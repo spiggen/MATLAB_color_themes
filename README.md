@@ -26,7 +26,7 @@ fireflies()
 ```
 
 
-![image_1.png](Documentation\fireflies_1.png)
+![](Documentation\fireflies_1.png)
 
 borealis:
 
@@ -35,7 +35,7 @@ my_plot = plot(0:0.01:10, (1:10)'*sin(0:0.01:10))
 borealis()
 ```
 
-![image_2.png](Documentation\borealis_2.png)
+![](Documentation\borealis_2.png)
 
 sangbok:
 
@@ -46,7 +46,7 @@ sangbok()
 
   
 
-![image_3.png](Documentation\sangbok_2.png)
+![](Documentation\sangbok_2.png)
 
   
   
