@@ -17,7 +17,7 @@ if exist("graphics", "var") == false
 
     for i = 1:numel(objects)
     if (contains(class(objects(i)), 'matlab.graphics') && contains(class(objects(i)),'matlab.graphics.chart.primitive') == false ) ...
-     || contains(class(objects(i)), 'matlab.ui.control.UIAxes')
+    || (contains(class(objects(i)), 'matlab.ui'      ) && contains(class(objects(i)),'Toolbar'                        ) == false )
     graphics(i) = objects(i) ;
     end
     if contains(class(objects(i)),'matlab.graphics.chart.primitive')
