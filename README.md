@@ -11,7 +11,7 @@ Without colortheme:
 my_plot = plot(0:0.01:10, (1:10)'*sin(0:0.01:10))
 ```
 
-![](Documentation\ouch_my_eyes_2.png)
+![](Documentation\ouch_my_eyes_1.png)
 
 
 
@@ -26,7 +26,7 @@ fireflies()
 ```
 
 
-![image_1.png](Documentation\fireflies_2.png)
+![image_1.png](Documentation\fireflies_1.png)
 
 borealis:
 
@@ -71,7 +71,7 @@ fireflies();
 
   
 
-![](Documentation/3dplot_sample.png)
+![](Documentation/fireflies_membrane_1.png)
 
 # Used together with UI-figures and MATLAB-appdesigner:
 
@@ -82,7 +82,7 @@ fireflies();
 
 ```
 
-![image_6.png](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/Sk%C3%A4rmbild%202023-10-06%20174034.png)
+![](Documentation\fireflies_appdesigner.png)
 
   
   
@@ -101,7 +101,7 @@ fireflies("Figure", myplot1)
   
   
 
-![image_7.png](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/Sk%C3%A4rmbild%202023-10-06%20174212.png)
+![](Documentation\fireflies_borealis_subplot.png)
 
   
   
@@ -129,3 +129,6 @@ colortheme_assign_colors_subroutine
 
 end
 ```
+
+# Gallery
+
