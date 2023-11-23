@@ -48,7 +48,28 @@ sangbok()
 
 ![](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/sangbok_2.png)
 
+dark_mode:
+
+```matlab:Code
+my_plot = plot(0:0.01:10, (1:10)'*sin(0:0.01:10))
+dark_mode()
+```
+
   
+
+![](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/dark_mode_1.png)
+
+dark_mode2:
+
+```matlab:Code
+my_plot = plot(0:0.01:10, (1:10)'*sin(0:0.01:10))
+dark_mode2()
+```
+
+  
+
+![](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/dark_mode2_1.png)
+
   
 # Changing the amount of colors before it repeats:
 
