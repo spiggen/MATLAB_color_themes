@@ -1,21 +1,21 @@
-# Spiggens color-themes
+# MATLAB colorthemes
   
 
-"Spiggens color-themes" is a library that contains various different colorthemes designed to be used together with the MATLAB-app designer and MATLAB plots.
+"MATLAB colorthemes" is a library that contains various different colorthemes designed to be used together with the MATLAB-app designer and MATLAB plots.
 
   
 
-Without color-theme:
+Without colortheme:
 
 ```matlab:Code
 my_plot = plot(0:0.01:10, (1:10)'*sin(0:0.01:10))
 ```
 
-![figure_0.png](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/ouch_my_eyes.png)
+![](Documentation\ouch_my_eyes_2.png)
 
 
 
-# Different color-themes:
+# Different colorthemes:
   
 
 fireflies:
@@ -26,7 +26,7 @@ fireflies()
 ```
 
 
-![image_1.png](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/fireflies_sample.png)
+![image_1.png](Documentation\fireflies_2.png)
 
 borealis:
 
@@ -35,7 +35,7 @@ my_plot = plot(0:0.01:10, (1:10)'*sin(0:0.01:10))
 borealis()
 ```
 
-![image_2.png](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/borealis_sample.png)
+![image_2.png](Documentation\borealis_2.png)
 
 sangbok:
 
@@ -46,7 +46,7 @@ sangbok()
 
   
 
-![image_3.png](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/sangbok_sample.png)
+![image_3.png](Documentation\sangbok_2.png)
 
   
   
@@ -59,7 +59,7 @@ fireflies("ColorSamples", 10)
 
   
 
-![image_4.png](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/colorsamples_sample.png)
+![](Documentation/fireflies_ColorSamples_1.png)
 
   
 # Different plot-types:
@@ -71,7 +71,7 @@ fireflies();
 
   
 
-![image_5.png](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/3dplot_sample.png)
+![](Documentation/3dplot_sample.png)
 
 # Used together with UI-figures and MATLAB-appdesigner:
 
