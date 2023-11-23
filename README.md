@@ -152,13 +152,12 @@ end
 ```
 
 # Gallery
-
-![](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/mandelbrot_fireflies8.png)
-![](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/mandelbrot_fireflies7.png)
-![](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/mandelbrot_fireflies4.png)
-![](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/mandelbrot_fireflies.png)
 ![](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/fireflies_2.png)
 ![](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/borealis_2.png)
 ![](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/sangbok_3.png)
 ![](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/dark_mode_2.png)
 ![](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/dark_mode2_2.png)
+![](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/mandelbrot_fireflies8.png)
+![](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/mandelbrot_fireflies7.png)
+![](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/mandelbrot_fireflies4.png)
+![](https://github.com/spiggen/MATLAB_color_themes/blob/master/Documentation/mandelbrot_fireflies.png)
