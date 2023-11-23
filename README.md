@@ -1,11 +1,11 @@
-# MATLAB colorthemes
+# MATLAB color themes
   
 
-"MATLAB colorthemes" is a library that contains various different colorthemes designed to be used together with the MATLAB-app designer and MATLAB plots.
+"MATLAB color themes" is a library that contains various different color themes designed to be used together with the MATLAB-app designer and MATLAB plots.
 
   
 
-Without colortheme:
+Without color theme:
 
 ```matlab:Code
 my_plot = plot(0:0.01:10, (1:10)'*sin(0:0.01:10))
@@ -15,7 +15,7 @@ my_plot = plot(0:0.01:10, (1:10)'*sin(0:0.01:10))
 
 
 
-# Different colorthemes:
+# Different color themes:
   
 
 fireflies:
@@ -107,7 +107,7 @@ fireflies();
 
   
   
-# Plotting multiple plots with different color-themes:
+# Plotting multiple plots with different colorthemes:
 
 ```matlab:Code
 myplot1 = subplot(1,2,1)
@@ -126,7 +126,7 @@ fireflies("Figure", myplot1)
 
   
   
-# Creating your own color-theme:
+# Creating your own color theme:
   
 
 ```matlab:Code
