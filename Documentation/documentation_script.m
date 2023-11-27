@@ -1,11 +1,13 @@
+
+
 mypath = erase(mfilename("fullpath"), "documentation_script");
 
 myaxes = axes();
 plot(0:0.01:10, (10:-0.5:1)'*sin(0:0.01:10), "LineWidth",1.2)
-saveplot(mypath+"ouch_my_eyes_1.png", myaxes);
+saveplot(mypath+"ouch_my_eyes_1.png",           myaxes);
 
 fireflies();
-saveplot(mypath+"fireflies_1.png", myaxes);
+saveplot(mypath+"fireflies_1.png",              myaxes);
 
 fireflies("ColorSamples", 5);
 saveplot(mypath+"fireflies_ColorSamples_1.png", myaxes);
@@ -16,17 +18,17 @@ myaxes2 = axes();
 plot(0:0.01:10, (10:-0.5:1)'*sin(0:0.01:10), "LineWidth",1.2)
 
 borealis();
-saveplot(mypath+"borealis_1.png", myaxes2);
+saveplot(mypath+"borealis_1.png",               myaxes2);
 
 dark_mode();
-saveplot(mypath+"dark_mode_1.png", myaxes2);
+saveplot(mypath+"dark_mode_1.png",  myaxes2);
 
 dark_mode2();
 saveplot(mypath+"dark_mode2_1.png", myaxes2);
 
 
 sangbok();
-saveplot(mypath+"sangbok_1.png", myaxes2);
+saveplot(mypath+"sangbok_1.png",    myaxes2);
 
 
 cla

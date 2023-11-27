@@ -1,11 +1,15 @@
+if exist("TEXT_COLOR", "var") == false
+TEXT_COLOR = AXES_COLOR;
+end
+
 for index = 1:numel(graphics)
 fig = graphics(index);
 if isprop(fig, "BackgroundColor");  fig.BackgroundColor  = BACKGROUND_COLOR;   end
 if isprop(fig, "BackgroundColor");  fig.BackgroundColor  = BACKGROUND_COLOR;   end
-if isprop(fig, "TextColor");        fig.TextColor        = AXES_COLOR;         end
+if isprop(fig, "TextColor");        fig.TextColor        = TEXT_COLOR;         end
 if isprop(fig, "GridColor");        fig.GridColor        = AXES_COLOR;
                                     fig.GridAlpha        = 0.7;                end
-if isprop(fig, "FontColor");        fig.FontColor        = AXES_COLOR;         end
+if isprop(fig, "FontColor");        fig.FontColor        = TEXT_COLOR;         end
 if isprop(fig, "BorderColor");      fig.BorderColor      = AXES_COLOR;         end
 if isprop(fig, "Color");            fig.Color            = BACKGROUND_COLOR;   end
 if isprop(fig, "XColor");           fig.XColor           = AXES_COLOR;         end
@@ -27,6 +31,9 @@ hold(fig, "on")
 h = image(fig, xlim,-ylim,BACKGROUND_IMAGE); 
 uistack(h,'bottom')
 hold(fig, "off")
+end
+if contains(class(fig), "Text") && isprop(fig, "Color")
+fig.Color            = TEXT_COLOR;   
 end
 
 if exist("GRID", "var")
