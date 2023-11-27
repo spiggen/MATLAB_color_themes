@@ -28,7 +28,7 @@ if (isequal(class(fig),  'matlab.ui.control.UIAxes') | ...
     exist("BACKGROUND_IMAGE", "var")
 hold(fig, "on")
 
-h = image(fig, xlim,-ylim,BACKGROUND_IMAGE); 
+h = image(fig, xlim,-ylim,BACKGROUND_IMAGE, "AlphaData",ALPHA); 
 uistack(h,'bottom')
 hold(fig, "off")
 end
