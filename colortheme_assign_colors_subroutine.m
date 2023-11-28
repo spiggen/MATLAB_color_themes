@@ -1,3 +1,7 @@
+if scramble
+NEW_COLORORDER = NEW_COLORORDER(randperm(height(NEW_COLORORDER), height(NEW_COLORORDER)), :);
+end
+
 if exist("TEXT_COLOR", "var") == false
 TEXT_COLOR = AXES_COLOR;
 end
