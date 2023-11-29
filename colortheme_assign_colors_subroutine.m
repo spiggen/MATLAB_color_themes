@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 if scramble
 NEW_COLORORDER = NEW_COLORORDER(randperm(height(NEW_COLORORDER), height(NEW_COLORORDER)), :);
 end
@@ -7,6 +8,8 @@ if exist("TEXT_COLOR", "var") == false
 TEXT_COLOR = AXES_COLOR;
 end
 
+=======
+>>>>>>> parent of 1ddf554 (made colorthemes play nicer with animations and subplots)
 =======
 >>>>>>> parent of 1ddf554 (made colorthemes play nicer with animations and subplots)
 for index = 1:numel(graphics)
