@@ -5,10 +5,9 @@ colortheme_process_inputs_subroutine
 
 
 color1 = [255 255 255]/255;
-color2 = [0   255 100]/255;
-color3 = [100 100 255]/255;
-color4 = [100 255 255]/255;
-
+color2 = [100 100 255]/255;
+color3 = [100 255 255]/255;
+color4 = [0   255 100]/255;
 
 
 BACKGROUND_COLOR   = [0  0   20]/255;
