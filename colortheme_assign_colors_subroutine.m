@@ -42,3 +42,6 @@ if GRID && isprop(fig, "XGrid"); fig.XGrid = "on"; fig.YGrid = "on";
 end
 end
 end
+
+assignin("base", "ColorOrder", NEW_COLORORDER);
+assignin("base", "ColorMap", NEW_COLORMAP);

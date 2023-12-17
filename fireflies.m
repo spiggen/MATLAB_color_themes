@@ -2,12 +2,12 @@ function NEW_COLORMAP = fireflies(varargin)
 
 colortheme_process_inputs_subroutine
 
-color1 = [245 255 20]/255;
+color1 = [245 255 20 ]/255;
 %color1 = [244 217 20]/255;
-color2 = [236 122 0]/255;
-color3 = [175 7   89]/255;
-color4 = [90 0 120]/255;
-color5 = [0   0   0]/255;
+color2 = [236 122 0  ]/255;
+color3 = [175 7   89 ]/255;
+color4 = [90  0   120]/255;
+color5 = [0   0   0  ]/255;
 %color5 = [0 0 0];
 
 
