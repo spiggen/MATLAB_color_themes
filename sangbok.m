@@ -1,4 +1,4 @@
-function NEW_COLORMAP = sangbok(varargin)
+function NEW_COLORMAP = sangbok(ALPHA, varargin)
 
 colortheme_process_inputs_subroutine
 
@@ -16,8 +16,5 @@ NEW_COLORMAP       = create_colormap(color2, color1, 256);
 BACKGROUND_IMAGE = imread("sangbok_background.png");
 
 colortheme_assign_colors_subroutine
-
-
-
 
 end

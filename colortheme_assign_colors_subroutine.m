@@ -30,6 +30,7 @@ if (isequal(class(fig),  'matlab.ui.control.UIAxes') | ...
     isequal(class(fig),  'matlab.graphics.axis.Axes')) && ...
     exist("BACKGROUND_IMAGE", "var")
 hold(fig, "on")
+axis tight
 h = image(fig, xlim,-ylim,BACKGROUND_IMAGE, "AlphaData",ALPHA); 
 uistack(h,'bottom')
 hold(fig, "off")
