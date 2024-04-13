@@ -18,12 +18,13 @@ if isprop(fig, "Color");            fig.Color            = BACKGROUND_COLOR;   e
 if isprop(fig, "XColor");           fig.XColor           = AXES_COLOR;         end
 if isprop(fig, "YColor");           fig.YColor           = AXES_COLOR;         end
 if isprop(fig, "ZColor");           fig.ZColor           = AXES_COLOR;         end
+if isprop(fig, "EdgeColor");        fig.EdgeColor        = AXES_COLOR;         end
 if isprop(fig, "ColorOrder")   
-   set(   fig,'ColorOrder',NEW_COLORORDER,'nextplot','replacechildren');       end
+   set(   fig, 'ColorOrder',NEW_COLORORDER,'nextplot','replacechildren');      end
 if isprop(fig, "Colormap")     
-   set(   fig,'Colormap',  NEW_COLORMAP);                                      end
+   set(   fig, 'Colormap',  NEW_COLORMAP);                                     end
 if isprop(fig, "NextPlot") && isequal(class(fig), 'matlab.graphics.axis.Axes')   
-   set(   fig,'NextPlot',  "replacechildren");                                 end
+   set(   fig, 'NextPlot',  "replacechildren");                                end
 if isprop(fig, "Color") && isequal(class(fig), 'matlab.graphics.primitive.Text')   
                                     fig.Color            = AXES_COLOR;         end
 if (isequal(class(fig),  'matlab.ui.control.UIAxes') | ...

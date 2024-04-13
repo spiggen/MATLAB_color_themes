@@ -6,6 +6,8 @@ elseif isequal(varargin{arg_nr}, "ColorSamples")
 number_of_hues = varargin{arg_nr + 1};
 elseif isequal(varargin{arg_nr}, "Scramble")
 scramble = varargin{arg_nr + 1};
+elseif isequal(varargin{arg_nr}, "Grid")
+GRID = varargin{arg_nr + 1};
 end
 end
 
@@ -23,7 +25,8 @@ if exist("graphics", "var") == false
     if (contains(class(objects(i)), 'matlab.graphics') && contains(class(objects(i)),'matlab.graphics.chart.primitive') == false ) ...
      || contains(class(objects(i)), 'matlab.ui.control.UIAxes')...
      || contains(class(objects(i)), 'matlab.ui.Figure') ...
-     || contains(class(objects(i)), 'matlab.ui.container.Panel')
+     || contains(class(objects(i)), 'matlab.ui.container.Panel') ...
+     || contains(class(objects(i)), 'matlab.graphics.chart.primitive.Contour')
     graphics(i) = objects(i) ;
     end
     if contains(class(objects(i)),'matlab.graphics.chart.primitive')
