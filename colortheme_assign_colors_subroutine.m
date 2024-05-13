@@ -19,6 +19,7 @@ if isprop(fig, "XColor");           fig.XColor           = AXES_COLOR;         e
 if isprop(fig, "YColor");           fig.YColor           = AXES_COLOR;         end
 if isprop(fig, "ZColor");           fig.ZColor           = AXES_COLOR;         end
 if isprop(fig, "EdgeColor");        fig.EdgeColor        = AXES_COLOR;         end
+if isprop(fig, "ScaleColors");      fig.ScaleColors      = NEW_COLORORDER;     end
 if isprop(fig, "ColorOrder")   
    set(   fig, 'ColorOrder',NEW_COLORORDER,'nextplot','replacechildren');      end
 if isprop(fig, "Colormap")     

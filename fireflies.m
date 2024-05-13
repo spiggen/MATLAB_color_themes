@@ -13,7 +13,7 @@ color5 = [0   0   0  ]/255;
 
 BACKGROUND_COLOR   = [20  15 50]/255;
 AXES_COLOR         = [120 5 130]/255;
-
+TEXT_COLOR         = [250 50 200]/255;
 
 NEW_COLORORDER     = create_colormap(color1, color2, color3, color4, color5, number_of_hues);
 NEW_COLORMAP       = create_colormap(color5, color4, color3, color2, color1, 256);
